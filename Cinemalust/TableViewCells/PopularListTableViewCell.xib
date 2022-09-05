@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PopularListTableViewCell" rowHeight="298" id="KGk-i7-Jjw" customClass="PopularListTableViewCell" customModule="Cinemalust" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="303" height="298"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="303" height="298"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popular movies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFA-6B-Xkq">
+                        <rect key="frame" x="0.0" y="10" width="303" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="tZo-kQ-WnQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Tk6-ty-9hv">
+                        <rect key="frame" x="0.0" y="40" width="303" height="258"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Nyw-6c-arn">
+                            <size key="itemSize" width="200" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="H2p-sc-9uM" id="Efx-J8-CJT"/>
+                            <outlet property="delegate" destination="H2p-sc-9uM" id="d0p-XJ-bMi"/>
+                        </connections>
+                    </collectionView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Tk6-ty-9hv" firstAttribute="top" secondItem="xFA-6B-Xkq" secondAttribute="bottom" constant="10" id="126-S1-qOc"/>
+                    <constraint firstAttribute="trailing" secondItem="xFA-6B-Xkq" secondAttribute="trailing" id="1n6-ML-iJT"/>
+                    <constraint firstAttribute="bottom" secondItem="Tk6-ty-9hv" secondAttribute="bottom" id="SQ2-ep-Suy"/>
+                    <constraint firstItem="xFA-6B-Xkq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Xvx-SX-wkC"/>
+                    <constraint firstAttribute="trailing" secondItem="Tk6-ty-9hv" secondAttribute="trailing" id="au7-oT-izl"/>
+                    <constraint firstItem="xFA-6B-Xkq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ecs-3a-BCT"/>
+                    <constraint firstItem="Tk6-ty-9hv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xI4-LE-GcD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionView" destination="Tk6-ty-9hv" id="tyZ-bg-FJW"/>
+                <outlet property="headingLbl" destination="xFA-6B-Xkq" id="dFr-4V-dQj"/>
+            </connections>
+            <point key="canvasLocation" x="112.31884057971016" y="131.91964285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

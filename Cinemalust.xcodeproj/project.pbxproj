@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0835FD6C28C66A1000BD708B /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 0835FD6B28C66A1000BD708B /* Lottie */; };
+		0835FD6E28C66A5100BD708B /* 107137-add-profile-picture.json in Resources */ = {isa = PBXBuildFile; fileRef = 0835FD6D28C66A5100BD708B /* 107137-add-profile-picture.json */; };
+		0846A78528C278C300CC41A7 /* PopularListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A78328C278C300CC41A7 /* PopularListTableViewCell.swift */; };
+		0846A78628C278C300CC41A7 /* PopularListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0846A78428C278C300CC41A7 /* PopularListTableViewCell.xib */; };
+		0846A78E28C27F4600CC41A7 /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A78C28C27F4600CC41A7 /* PopularCollectionViewCell.swift */; };
+		0846A78F28C27F4600CC41A7 /* PopularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0846A78D28C27F4600CC41A7 /* PopularCollectionViewCell.xib */; };
+		08AC2A7228BBB4D4001995B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC2A7128BBB4D4001995B3 /* AppDelegate.swift */; };
+		08AC2A7428BBB4D4001995B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC2A7328BBB4D4001995B3 /* SceneDelegate.swift */; };
+		08AC2A7628BBB4D4001995B3 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC2A7528BBB4D4001995B3 /* LandingViewController.swift */; };
+		08AC2A7928BBB4D4001995B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AC2A7728BBB4D4001995B3 /* Main.storyboard */; };
+		08AC2A7B28BBB4D7001995B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AC2A7A28BBB4D7001995B3 /* Assets.xcassets */; };
+		08AC2A7E28BBB4D7001995B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AC2A7C28BBB4D7001995B3 /* LaunchScreen.storyboard */; };
+		08AC2A8628BBC1F0001995B3 /* UIview + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC2A8528BBC1F0001995B3 /* UIview + Extension.swift */; };
+		08AC2A8928BBC922001995B3 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC2A8828BBC922001995B3 /* UIButton + Extension.swift */; };
+		08AC2A8B28BBCA32001995B3 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC2A8A28BBCA32001995B3 /* UIColor + Extension.swift */; };
+		08AC2A8D28BBCA76001995B3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC2A8C28BBCA76001995B3 /* Enums.swift */; };
+		08AC2A9028BBCB74001995B3 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC2A8F28BBCB74001995B3 /* UIFont + Extension.swift */; };
+		08AC2A9628BC8179001995B3 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC2A9528BC8179001995B3 /* DashboardModel.swift */; };
+		08AC2A9928BC82FD001995B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08AC2A9828BC82FC001995B3 /* GoogleService-Info.plist */; };
+		08AC2A9C28BC8F46001995B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC2A9B28BC8F46001995B3 /* LoginViewController.swift */; };
+		08AC2A9E28BC8FA8001995B3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC2A9D28BC8FA8001995B3 /* SignUpViewController.swift */; };
+		08DE573928BDFCEF0029A0D6 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE573828BDFCEF0029A0D6 /* CustomTextFieldView.swift */; };
+		08DE573C28BDFE710029A0D6 /* CustomTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08DE573B28BDFE710029A0D6 /* CustomTextFieldView.xib */; };
+		08DE573E28BE07570029A0D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE573D28BE07570029A0D6 /* Constants.swift */; };
+		08DE574528BE28B60029A0D6 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE574428BE28B60029A0D6 /* UIViewController + Extension.swift */; };
+		08DE574728BE38530029A0D6 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE574628BE38520029A0D6 /* DashBoardViewController.swift */; };
+		08DE574928BFD2420029A0D6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE574828BFD2420029A0D6 /* ProfileViewController.swift */; };
+		08DE575328BFD7910029A0D6 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE575128BFD7910029A0D6 /* HeaderTableViewCell.swift */; };
+		08DE575428BFD7910029A0D6 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08DE575228BFD7910029A0D6 /* HeaderTableViewCell.xib */; };
+		18287A98F65C6303864B73CE /* Pods_Cinemalust.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4591C198C2E3173584733 /* Pods_Cinemalust.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0835FD6D28C66A5100BD708B /* 107137-add-profile-picture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "107137-add-profile-picture.json"; sourceTree = "<group>"; };
+		0846A78328C278C300CC41A7 /* PopularListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularListTableViewCell.swift; sourceTree = "<group>"; };
+		0846A78428C278C300CC41A7 /* PopularListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularListTableViewCell.xib; sourceTree = "<group>"; };
+		0846A78C28C27F4600CC41A7 /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		0846A78D28C27F4600CC41A7 /* PopularCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularCollectionViewCell.xib; sourceTree = "<group>"; };
+		08AC2A6E28BBB4D4001995B3 /* Cinemalust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinemalust.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08AC2A7128BBB4D4001995B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08AC2A7328BBB4D4001995B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		08AC2A7528BBB4D4001995B3 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		08AC2A7828BBB4D4001995B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08AC2A7A28BBB4D7001995B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08AC2A7D28BBB4D7001995B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08AC2A7F28BBB4D7001995B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AC2A8528BBC1F0001995B3 /* UIview + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIview + Extension.swift"; sourceTree = "<group>"; };
+		08AC2A8828BBC922001995B3 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		08AC2A8A28BBCA32001995B3 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		08AC2A8C28BBCA76001995B3 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		08AC2A8F28BBCB74001995B3 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		08AC2A9528BC8179001995B3 /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		08AC2A9828BC82FC001995B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08AC2A9B28BC8F46001995B3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		08AC2A9D28BC8FA8001995B3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		08DE573828BDFCEF0029A0D6 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
+		08DE573B28BDFE710029A0D6 /* CustomTextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTextFieldView.xib; sourceTree = "<group>"; };
+		08DE573D28BE07570029A0D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		08DE574428BE28B60029A0D6 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		08DE574628BE38520029A0D6 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		08DE574828BFD2420029A0D6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		08DE575128BFD7910029A0D6 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		08DE575228BFD7910029A0D6 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		5E07BF8136C9E43454B86ED5 /* Pods-Cinemalust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinemalust.debug.xcconfig"; path = "Target Support Files/Pods-Cinemalust/Pods-Cinemalust.debug.xcconfig"; sourceTree = "<group>"; };
+		B8A4591C198C2E3173584733 /* Pods_Cinemalust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cinemalust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AEC2B83BB4622841D4154F /* Pods-Cinemalust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinemalust.release.xcconfig"; path = "Target Support Files/Pods-Cinemalust/Pods-Cinemalust.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08AC2A6B28BBB4D4001995B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18287A98F65C6303864B73CE /* Pods_Cinemalust.framework in Frameworks */,
+				0835FD6C28C66A1000BD708B /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0835FD6928C669B900BD708B /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				0835FD6D28C66A5100BD708B /* 107137-add-profile-picture.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		0846A78B28C27F0A00CC41A7 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0846A78C28C27F4600CC41A7 /* PopularCollectionViewCell.swift */,
+				0846A78D28C27F4600CC41A7 /* PopularCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		08AC2A6528BBB4D4001995B3 = {
+			isa = PBXGroup;
+			children = (
+				08AC2A7028BBB4D4001995B3 /* Cinemalust */,
+				08AC2A6F28BBB4D4001995B3 /* Products */,
+				A39800C540FA451582351C72 /* Pods */,
+				4562AAC5B654DC4AE882F785 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08AC2A6F28BBB4D4001995B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08AC2A6E28BBB4D4001995B3 /* Cinemalust.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08AC2A7028BBB4D4001995B3 /* Cinemalust */ = {
+			isa = PBXGroup;
+			children = (
+				08AC2A7128BBB4D4001995B3 /* AppDelegate.swift */,
+				08AC2A7328BBB4D4001995B3 /* SceneDelegate.swift */,
+				0835FD6928C669B900BD708B /* Json */,
+				08AC2A9728BC817D001995B3 /* Model */,
+				08AC2A9428BC815F001995B3 /* Views */,
+				08AC2A9328BC8155001995B3 /* Controllers */,
+				08AC2A8728BBC8FB001995B3 /* Extensions */,
+				08AC2A8E28BBCA80001995B3 /* Enums */,
+				08DE573A28BDFD170029A0D6 /* CustomViews */,
+				08DE575028BFD7480029A0D6 /* TableViewCells */,
+				0846A78B28C27F0A00CC41A7 /* CollectionViewCells */,
+				08DE573D28BE07570029A0D6 /* Constants.swift */,
+				08AC2A7A28BBB4D7001995B3 /* Assets.xcassets */,
+				08AC2A7C28BBB4D7001995B3 /* LaunchScreen.storyboard */,
+				08AC2A9828BC82FC001995B3 /* GoogleService-Info.plist */,
+				08AC2A7F28BBB4D7001995B3 /* Info.plist */,
+			);
+			path = Cinemalust;
+			sourceTree = "<group>";
+		};
+		08AC2A8728BBC8FB001995B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				08AC2A8528BBC1F0001995B3 /* UIview + Extension.swift */,
+				08AC2A8828BBC922001995B3 /* UIButton + Extension.swift */,
+				08AC2A8A28BBCA32001995B3 /* UIColor + Extension.swift */,
+				08AC2A8F28BBCB74001995B3 /* UIFont + Extension.swift */,
+				08DE574428BE28B60029A0D6 /* UIViewController + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		08AC2A8E28BBCA80001995B3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				08AC2A8C28BBCA76001995B3 /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		08AC2A9328BC8155001995B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				08AC2A7528BBB4D4001995B3 /* LandingViewController.swift */,
+				08AC2A9B28BC8F46001995B3 /* LoginViewController.swift */,
+				08AC2A9D28BC8FA8001995B3 /* SignUpViewController.swift */,
+				08DE574628BE38520029A0D6 /* DashBoardViewController.swift */,
+				08DE574828BFD2420029A0D6 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		08AC2A9428BC815F001995B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08AC2A7728BBB4D4001995B3 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		08AC2A9728BC817D001995B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08AC2A9528BC8179001995B3 /* DashboardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08DE573A28BDFD170029A0D6 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				08DE573828BDFCEF0029A0D6 /* CustomTextFieldView.swift */,
+				08DE573B28BDFE710029A0D6 /* CustomTextFieldView.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		08DE575028BFD7480029A0D6 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				08DE575128BFD7910029A0D6 /* HeaderTableViewCell.swift */,
+				08DE575228BFD7910029A0D6 /* HeaderTableViewCell.xib */,
+				0846A78328C278C300CC41A7 /* PopularListTableViewCell.swift */,
+				0846A78428C278C300CC41A7 /* PopularListTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		4562AAC5B654DC4AE882F785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8A4591C198C2E3173584733 /* Pods_Cinemalust.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A39800C540FA451582351C72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E07BF8136C9E43454B86ED5 /* Pods-Cinemalust.debug.xcconfig */,
+				F3AEC2B83BB4622841D4154F /* Pods-Cinemalust.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08AC2A6D28BBB4D4001995B3 /* Cinemalust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08AC2A8228BBB4D7001995B3 /* Build configuration list for PBXNativeTarget "Cinemalust" */;
+			buildPhases = (
+				5BFC7EF4C38ACBF9CC594E51 /* [CP] Check Pods Manifest.lock */,
+				08AC2A6A28BBB4D4001995B3 /* Sources */,
+				08AC2A6B28BBB4D4001995B3 /* Frameworks */,
+				08AC2A6C28BBB4D4001995B3 /* Resources */,
+				E90072D4F74D25BE3A0EA468 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cinemalust;
+			packageProductDependencies = (
+				0835FD6B28C66A1000BD708B /* Lottie */,
+			);
+			productName = Cinemalust;
+			productReference = 08AC2A6E28BBB4D4001995B3 /* Cinemalust.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08AC2A6628BBB4D4001995B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = Genysis.inc;
+				TargetAttributes = {
+					08AC2A6D28BBB4D4001995B3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 08AC2A6928BBB4D4001995B3 /* Build configuration list for PBXProject "Cinemalust" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08AC2A6528BBB4D4001995B3;
+			packageReferences = (
+				0835FD6A28C66A1000BD708B /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 08AC2A6F28BBB4D4001995B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08AC2A6D28BBB4D4001995B3 /* Cinemalust */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08AC2A6C28BBB4D4001995B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0846A78F28C27F4600CC41A7 /* PopularCollectionViewCell.xib in Resources */,
+				08AC2A7E28BBB4D7001995B3 /* LaunchScreen.storyboard in Resources */,
+				08AC2A9928BC82FD001995B3 /* GoogleService-Info.plist in Resources */,
+				08AC2A7B28BBB4D7001995B3 /* Assets.xcassets in Resources */,
+				0835FD6E28C66A5100BD708B /* 107137-add-profile-picture.json in Resources */,
+				08DE573C28BDFE710029A0D6 /* CustomTextFieldView.xib in Resources */,
+				08DE575428BFD7910029A0D6 /* HeaderTableViewCell.xib in Resources */,
+				0846A78628C278C300CC41A7 /* PopularListTableViewCell.xib in Resources */,
+				08AC2A7928BBB4D4001995B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BFC7EF4C38ACBF9CC594E51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cinemalust-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E90072D4F74D25BE3A0EA468 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cinemalust/Pods-Cinemalust-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cinemalust/Pods-Cinemalust-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cinemalust/Pods-Cinemalust-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08AC2A6A28BBB4D4001995B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DE574728BE38530029A0D6 /* DashBoardViewController.swift in Sources */,
+				08AC2A9E28BC8FA8001995B3 /* SignUpViewController.swift in Sources */,
+				08AC2A9028BBCB74001995B3 /* UIFont + Extension.swift in Sources */,
+				08AC2A9628BC8179001995B3 /* DashboardModel.swift in Sources */,
+				08AC2A8928BBC922001995B3 /* UIButton + Extension.swift in Sources */,
+				08AC2A8628BBC1F0001995B3 /* UIview + Extension.swift in Sources */,
+				08DE574928BFD2420029A0D6 /* ProfileViewController.swift in Sources */,
+				08AC2A7628BBB4D4001995B3 /* LandingViewController.swift in Sources */,
+				08AC2A8B28BBCA32001995B3 /* UIColor + Extension.swift in Sources */,
+				08DE573E28BE07570029A0D6 /* Constants.swift in Sources */,
+				08AC2A8D28BBCA76001995B3 /* Enums.swift in Sources */,
+				0846A78E28C27F4600CC41A7 /* PopularCollectionViewCell.swift in Sources */,
+				08AC2A7228BBB4D4001995B3 /* AppDelegate.swift in Sources */,
+				08DE574528BE28B60029A0D6 /* UIViewController + Extension.swift in Sources */,
+				08AC2A9C28BC8F46001995B3 /* LoginViewController.swift in Sources */,
+				08DE575328BFD7910029A0D6 /* HeaderTableViewCell.swift in Sources */,
+				0846A78528C278C300CC41A7 /* PopularListTableViewCell.swift in Sources */,
+				08AC2A7428BBB4D4001995B3 /* SceneDelegate.swift in Sources */,
+				08DE573928BDFCEF0029A0D6 /* CustomTextFieldView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08AC2A7728BBB4D4001995B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08AC2A7828BBB4D4001995B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08AC2A7C28BBB4D7001995B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08AC2A7D28BBB4D7001995B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08AC2A8028BBB4D7001995B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08AC2A8128BBB4D7001995B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08AC2A8328BBB4D7001995B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E07BF8136C9E43454B86ED5 /* Pods-Cinemalust.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				Appearance = Light;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH6R63YCRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cinemalust/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genysis.Cinemalust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08AC2A8428BBB4D7001995B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3AEC2B83BB4622841D4154F /* Pods-Cinemalust.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				Appearance = Light;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH6R63YCRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cinemalust/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genysis.Cinemalust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08AC2A6928BBB4D4001995B3 /* Build configuration list for PBXProject "Cinemalust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AC2A8028BBB4D7001995B3 /* Debug */,
+				08AC2A8128BBB4D7001995B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08AC2A8228BBB4D7001995B3 /* Build configuration list for PBXNativeTarget "Cinemalust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AC2A8328BBB4D7001995B3 /* Debug */,
+				08AC2A8428BBB4D7001995B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0835FD6A28C66A1000BD708B /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0835FD6B28C66A1000BD708B /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0835FD6A28C66A1000BD708B /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 08AC2A6628BBB4D4001995B3 /* Project object */;
+}
